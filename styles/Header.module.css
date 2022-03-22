@@ -1,0 +1,51 @@
+.loginNavbar {
+  z-index: 1;
+  padding-top: 1.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.headerContainer {
+  background-color: #000;
+}
+.btnSignIn {
+  background-color: #e50914;
+}
+.btnSignIn:hover {
+  background-color: #e50914;
+}
+.btnSignIn:active {
+  background-color: #e50914;
+}
+.btnSignIn:focus {
+  background-color: #e50914;
+}
+select.formSelect {
+  color: #fff;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' class='bi bi-caret-down-fill' viewBox='0 0 16 16'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>");
+}
+select.formSelect:focus {
+  border: 1px solid #fff !important;
+}
+select.formSelect option {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+svg.globeLang {
+  margin-top: 0.35rem;
+}
+@media (min-width: 1200px) {
+  svg.logo {
+    width: 170px !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  svg.logo {
+    width: 140px !important;
+  }
+}
+@media (max-width: 949px) {
+  svg.logo {
+    width: 100px !important;
+  }
+}
